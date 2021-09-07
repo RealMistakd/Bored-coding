@@ -12,7 +12,7 @@ body {
 
 .split {
 	height: 100%;
-	width: 50%;
+	width: 44%;
 	position: fixed;
 	z-index: 1;
 	top: 0;
@@ -43,7 +43,7 @@ body {
 .leftTextAnimation {
 	font-family: Courier New, monospace;
 	color: #edffd9;
-	z-index: 100;
+	z-index: 101;
 	position: fixed;
 	width: 11.8em;
 	margin: 10px 0 0 10px;
