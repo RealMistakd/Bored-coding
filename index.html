@@ -4,7 +4,7 @@
 
 <head>
     <style type="text/css">
-        
+
     </style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,15 +13,31 @@
 
 <body>
 
-    <h1 class="wrapper top leftTextAnimation">
-        <span onclick="helloDef()">Hello</span><span onclick="thereDef()"> there </span><span onclick="humanDef()">human...
+    <h1 class="top leftTextAnimation">
+        <span onclick="helloDef()">Hello</span>
+        <span onclick="thereDef()"> there </span>
+        <span onclick="humanDef()">human...
     </h1>
-    <h1 id="id" class="wrapperRight right rightTextAnimation delay-1 top">
-        <span onclick="welcomeDef()">Welcome</span><span onclick="toDef()"> to </span><span onclick="myDef()">my</span><span onclick="playgroundDef()"> playground.</span>
-        </h1>
-        <div class="split left bottom"></div>
-        <div class="split right bottom"></div>
-        <p class="paragraph top"><br><br><br><br>&nbsp;&nbsp;&nbsp;This is the begining of my website. I'm going to update this<br>website every time I have<span id='nothing' onclick="changeContent"> nothing</span> better to do.</p>
+
+    <h1 id="id" class=" right rightTextAnimation delay-1 top">
+        <span onclick="welcomeDef()">Welcome</span>
+        <span onclick="toDef()"> to </span>
+        <span onclick="myDef()">my</span>
+        <span onclick="playgroundDef()"> playground.</span>
+    </h1>
+
+    <div class="split left bottom"></div>
+    <div class="split right bottom"></div>
+    <p class="paragraph top"><br><br><br><br>&nbsp;&nbsp;&nbsp;This is the begining of my website. I'm going to update
+        this<br>website every time I have
+        <span id='nothing' onclick="changeContent()"> nothing</span>
+         better to do.</p>
+
+    <!--I am putting script tag at the end so it will load the script
+            after loading everything, so JS can find every element that 
+            it needs to find.
+        -->
+    <script src="index.js"></script>
 </body>
 
 </html>

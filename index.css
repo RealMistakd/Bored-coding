@@ -1,89 +1,86 @@
 body {
-    background-color: #3a3042;
-    overflow-x: hidden;
-    background-image: url(backgroundimage.jpg);
-    background-size: cover;
-    z-index: 0;
+	background-color: #3a3042;
+	overflow-x: hidden;
+	background-image: url(backgroundimage.jpg);
+	background-size: cover;
+	z-index: 0;
 }
 
 .center {
-    text-align: center;
+	text-align: center;
 }
 
 .split {
-    height: 100%;
-    width: 44%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
+	height: 100%;
+	width: 50%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
 }
 
 .right {
-    right: 0;
-    background-color: #db9d47;
+	right: 0;
+	background-color: #db9d47;
 }
 
 .left {
-    left: 0;
-    background-color: #3a3042;
+	left: 0;
+	background-color: #3a3042;
 }
 
 .bottom {
-    z-index: 1;
-    position: fixed;
+	z-index: 1;
+	position: fixed;
 }
 
 .top {
-    z-index: 100;
-    position: fixed;
+	z-index: 100;
+	position: fixed;
 }
 
 .leftTextAnimation {
-    font-family: Courier New, monospace;
-    color: #edffd9;
-    z-index: 100;
-    position: fixed;
-    width: 11.8em;
-    margin: 10px 0 0 10px;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: type 1.5s steps(60, end);
+	font-family: Courier New, monospace;
+	color: #edffd9;
+	z-index: 100;
+	position: fixed;
+	width: 11.8em;
+	margin: 10px 0 0 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	animation: type1 1.5s steps(60, end);
 }
 
-.wrapperLeft {}
-
-@keyframes type {
-    from {
-        width: 0;
-    }
+@keyframes type1 {
+	from {
+		width: 0;
+	}
 }
 
 .rightTextAnimation {
-    font-family: Courier New, monospace;
-    color: #3a3042;
-    position: fixed;
-    width: 20.5em;
-    margin: 10px 0 0 10px;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: type 1.5s steps(60, end);
+	font-family: Courier New, monospace;
+	color: #3a3042;
+	position: fixed;
+	width: 20.5em;
+	margin: 10px 0 0 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	animation: type2 1.5s steps(60, end);
 }
 
-.wrapperRight {}
-
-@keyframes type {
-    from {
-        width: 0;
-    }
+@keyframes type2 {
+	from {
+		width: 0;
+		color: transparent;
+	}
 }
 
 .delay-1 {
-    animation-delay: 1.5s;
+	animation-delay: 1.5s;
 }
 
 .paragraph {
-    color: #db9d47;
-    font-family: 'Courier New', Courier, monospace;
+	color: #db9d47;
+	font-family: "Courier New", Courier, monospace;
 }
