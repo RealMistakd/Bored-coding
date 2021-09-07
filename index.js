@@ -41,5 +41,5 @@ function changeContent() {
 
 setTimeout(function transparent() {
   let v = document.getElementById("id");
-  v.style.color = "transparent";
-}, 5000);
+  v.style.color = "#3a3042";
+}, 1520);

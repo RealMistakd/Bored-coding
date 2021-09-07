@@ -60,7 +60,7 @@ body {
 
 .rightTextAnimation {
 	font-family: Courier New, monospace;
-	color: #3a3042;
+	color: transparent;
 	position: fixed;
 	width: 20.5em;
 	margin: 10px 0 0 10px;
